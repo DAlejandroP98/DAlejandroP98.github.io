@@ -177,7 +177,7 @@ main .main_presentacion--title-poblacion h1 {
     display: block;
     margin: -30px 0px 0px 90px;
     padding: 15px;
-    width: 300px;
+    width: 600px;
     height: 60px;
     background-color: whitesmoke;
     box-shadow: 0px 4px 8px black;
@@ -219,7 +219,7 @@ main .main_presentacion--title-sedes h1 {
     display: block;
     margin: -30px 0px 0px 90px;
     padding: 15px;
-    width: 300px;
+    width: 500px;
     height: 60px;
     background-color: whitesmoke;
     box-shadow: 0px 4px 8px black;
@@ -240,7 +240,7 @@ main .main_presentacion--content-poblacion {
 main .main_presentacion--content-poblacion img{
     width: 400px;
     height: auto;
-    margin: 40px 30px 40px 45px;
+    margin: 40px 30px 60px 45px;
     border-radius: 5px;
     box-shadow: 0px 4px 8px gray;
 }
@@ -448,6 +448,11 @@ main .main_presentacion--content-poblacion img{
     height: auto;
     margin: 40px calc(50% - 350px);
 }
+.main_presentacion--content-mapa .facturacion {
+    width: 1000px;
+    height: auto;
+    margin: 40px calc(50% - 540px);
+}
 
 .modelo-content {
     width: 100%;
@@ -483,6 +488,10 @@ main .main_presentacion--content-poblacion img{
     text-align: justify;
 }
 
+.modelo-atencion img {
+    width: 100%;
+    margin: 0
+}
 
 .modelo-atencion-imagen img {
     width: 500px;
@@ -573,9 +582,42 @@ main .main_presentacion--content-poblacion img{
     color: grey;
 }
 
+.main_presentacion--content-mapa h1{
+    width: 400px;
+    margin: 40px  auto auto 90px;
+    font-size: 40px;
+    color: var(--dartmouth-green);
+    font-weight: bold;
+}
+
 footer {
     display: flex;
     width: 100%;
     height: 150px;
-    background-color: var(--bitcoin-orange);
+    background-color: var(--pakistan-green);
+}
+
+footer img {
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .left ul {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+    color: white;
+}
+
+.left li {
+    margin: 10px 0;
 }
